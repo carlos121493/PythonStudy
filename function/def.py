@@ -24,3 +24,4 @@ def func(a,b,c=0,*arg,**kw):
 #func(*(2,4,9,6,7,8,"bushiba"),city="heeee",comeon="man");
 #func(*(2,4,9,6,7,8,"bushiba"),**{"city":"shanghai","comeon":"man"});
 #func(2,7,8,'ddd',9,3,7,**{"city":"shanghai","comeon":"man"});
+func(*range(30),**{"city":"shanghai","comeon":"man"});
